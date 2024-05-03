@@ -24,7 +24,7 @@ void inputElements(int *arr, int size)
 }
 int main()
 {
-    int *arr, i, size, key;
+    int *arr,size;
     printf("Enter the size of the Array:");
     scanf("%d", &size);
     arr = (int *)malloc(sizeof(int) * size);
