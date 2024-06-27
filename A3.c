@@ -22,8 +22,7 @@ void inputElements(int *arr, int size)
         scanf("%d", &arr[i]);
     }
 }
-int main()
-{
+int main() {
     int *arr,size;
     printf("Enter the size of the Array:");
     scanf("%d", &size);
