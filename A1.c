@@ -19,11 +19,11 @@ int deleteElement(int arr[], int size, int key)
     int pos = findElement(arr, size, key);
     if (pos == -1)
     {
-        printf("\n%d is not present in the array.");
+        printf("\n%d is not present in the array.",key);
         return size;
     }
     // Deleting element
-    for (int i = pos; i < size - 1; i++)
+    for (int i = pos; i < size-1 ; i++)
         arr[i] = arr[i + 1];
     return size - 1;
 }
@@ -38,9 +38,9 @@ void inputElements(int *arr, int size)
     }
 }
 // display fucntion to show the Array
-void displayArray(int *arr, int size)
+void displayArray(int *arr, int new_size)
 {
-    for (int i = 0; i < size; i++)
+    for (int i = 0; i < new_size; i++)
         printf("%d ", arr[i]);
 }
 int main()

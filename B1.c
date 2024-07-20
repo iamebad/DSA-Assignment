@@ -30,7 +30,7 @@ void display()
     {
         printf("The Stack:-");
         for (int i = top; i >= 0; i--)
-            printf("%d \n", Stack[i]);
+            printf("%d ", Stack[i]);
     }
 }
 int main()
